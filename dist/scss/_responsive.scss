@@ -1,0 +1,52 @@
+@include screen-lg{
+
+    body{
+        height: 100vh;
+    }
+
+    .header{
+        padding: 1rem 8rem 10rem ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header_text{
+            padding: 3rem 0 4rem 0;
+            h2{
+                font-size: 1.7rem;
+            }
+        }
+
+        .header_text::after{
+            height: 0;
+            margin-bottom: 0;
+        }
+
+        .header_theme-selector{
+            position: relative;
+            bottom: 20px;
+            align-items: center;
+            #dark-text{
+                margin: 0 1rem 0 0 ;
+            }
+        }
+    }
+    .social{
+        grid-template-columns: repeat(4, 1fr);
+        padding: 1rem 8rem 2rem;
+        margin-top: -5rem;
+        grid-gap: 3;
+        grid-auto-rows: 18rem;
+    }
+ 
+    .main_overview{
+        padding: 1rem 8rem 2rem;
+        margin-top: -3rem;
+        grid-gap: 3;
+        .overview{
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 10rem;
+        }
+        
+    }
+}
