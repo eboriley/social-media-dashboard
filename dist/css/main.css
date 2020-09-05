@@ -353,7 +353,7 @@ body {
     height: 100vh;
   }
   .header {
-    padding: 1rem 8rem 10rem;
+    padding: 1rem 8rem 6rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
