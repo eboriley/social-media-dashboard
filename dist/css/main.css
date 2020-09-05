@@ -121,10 +121,10 @@ body {
 }
 
 .social p {
-  font-size: .9rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  font-weight: 400;
+  font-weight: 700;
   color: #63687e;
 }
 
@@ -133,8 +133,9 @@ body {
 }
 
 .social small {
-  font-weight: lighter;
+  font-weight: 700;
   color: #63687e;
+  font-size: .8rem;
 }
 
 .social .social_followers {
